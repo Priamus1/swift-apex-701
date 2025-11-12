@@ -9,6 +9,6 @@ services:
       - key: SESSION
         value: ""
       - key: DATABASE_URL
-        fromDatabase:
+        value: "postgresql://myapp_user:RtrffBQYErQ76RxR4TDWb9iyf4sUgGch@dpg-d4agsn3ipnbc739kgkd0-a.oregon-postgres.render.com/myapp_db_f6g4"
           name: my-database
           property: connectionString
