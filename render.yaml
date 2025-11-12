@@ -1,4 +1,4 @@
-5services:
+services:
   - type: web
     name: my-application
     runtime: docker
